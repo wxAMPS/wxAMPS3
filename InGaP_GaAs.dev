@@ -1,0 +1,1232 @@
+<Device layers="10">
+    <Material name="AlInP" thickness="0.05">
+        <Electric>
+            <Dielectric>10</Dielectric>
+            <Eg>2.21</Eg>
+            <Affinity>4.2</Affinity>
+            <Nc>4.3e17</Nc>
+            <Nv>8.7e18</Nv>
+            <mobility_n>8500</mobility_n>
+            <mobility_p>400</mobility_p>
+            <Nd>3e17</Nd>
+            <Na>0</Na>
+        </Electric>
+        <Defect number="0">
+            <Band_tail exist="0" />
+        </Defect>
+        <Optical>
+            <A>0</A>
+            <B>0</B>
+            <refractive_index wavelength_unit="nm">
+                <waveLength n="4.590410" k="0.522685">394</waveLength>
+                <waveLength n="4.545760" k="0.443745">401</waveLength>
+                <waveLength n="4.445230" k="0.357640">410</waveLength>
+                <waveLength n="3.500000" k="0.278685">425</waveLength>
+                <waveLength n="3.500000" k="0.235625">437</waveLength>
+                <waveLength n="3.500000" k="0.192580">455</waveLength>
+                <waveLength n="3.500000" k="0.171045">475</waveLength>
+                <waveLength n="3.000000" k="0.113625">510</waveLength>
+                <waveLength n="3.050000" k="0.106455">543</waveLength>
+                <waveLength n="3.100000" k="0.084920">573</waveLength>
+                <waveLength n="3.150000" k="0.085745">585</waveLength>
+                <waveLength n="3.200000" k="0.087125">606</waveLength>
+                <waveLength n="3.210000" k="0.086525">608</waveLength>
+                <waveLength n="3.220000" k="0.085630">609</waveLength>
+                <waveLength n="3.230000" k="0.085330">612</waveLength>
+                <waveLength n="3.240000" k="0.083835">614</waveLength>
+                <waveLength n="3.250000" k="0.083535">616</waveLength>
+                <waveLength n="3.260000" k="0.082935">619</waveLength>
+                <waveLength n="3.270000" k="0.082035">623</waveLength>
+                <waveLength n="3.280000" k="0.080240">625</waveLength>
+                <waveLength n="3.290000" k="0.078445">629</waveLength>
+                <waveLength n="3.300000" k="0.076050">633</waveLength>
+                <waveLength n="3.310000" k="0.074250">636</waveLength>
+                <waveLength n="3.320000" k="0.072155">639</waveLength>
+                <waveLength n="3.330000" k="0.070060">641</waveLength>
+                <waveLength n="3.340000" k="0.066470">643</waveLength>
+                <waveLength n="3.350000" k="0.063775">646</waveLength>
+                <waveLength n="3.360000" k="0.060780">647</waveLength>
+                <waveLength n="3.370000" k="0.057485">650</waveLength>
+                <waveLength n="3.558690" k="0.021555">663</waveLength>
+                <waveLength n="3.558690" k="0.014370">665</waveLength>
+                <waveLength n="3.558690" k="0.010180">666</waveLength>
+                <waveLength n="3.558690" k="0.008385">666</waveLength>
+                <waveLength n="3.558690" k="0.005555">667</waveLength>
+                <waveLength n="3.558690" k="0.002440">673</waveLength>
+                <waveLength n="3.558690" k="0.000000">674</waveLength>
+                <waveLength n="3.553980" k="0.000000">679</waveLength>
+                <waveLength n="3.519790" k="0.000000">693</waveLength>
+                <waveLength n="3.495200" k="0.000000">699</waveLength>
+                <waveLength n="3.479900" k="0.000000">704</waveLength>
+                <waveLength n="3.465250" k="0.000000">709</waveLength>
+                <waveLength n="3.453600" k="0.000000">714</waveLength>
+                <waveLength n="3.438630" k="0.000000">720</waveLength>
+                <waveLength n="3.419100" k="0.000000">730</waveLength>
+                <waveLength n="3.404080" k="0.000000">739</waveLength>
+                <waveLength n="3.393560" k="0.000000">746</waveLength>
+                <waveLength n="3.380040" k="0.000000">753</waveLength>
+                <waveLength n="3.366510" k="0.000000">763</waveLength>
+                <waveLength n="3.355990" k="0.000000">772</waveLength>
+                <waveLength n="3.346980" k="0.000000">781</waveLength>
+                <waveLength n="3.331950" k="0.000000">792</waveLength>
+                <waveLength n="3.325940" k="0.000000">799</waveLength>
+                <waveLength n="3.316930" k="0.000000">807</waveLength>
+                <waveLength n="3.306410" k="0.000000">818</waveLength>
+                <waveLength n="3.294390" k="0.000000">830</waveLength>
+                <waveLength n="3.283870" k="0.000000">841</waveLength>
+                <waveLength n="3.274860" k="0.000000">853</waveLength>
+                <waveLength n="3.265840" k="0.000000">866</waveLength>
+                <waveLength n="3.258330" k="0.000000">875</waveLength>
+                <waveLength n="3.255320" k="0.000000">884</waveLength>
+                <waveLength n="3.246310" k="0.000000">898</waveLength>
+                <waveLength n="3.240300" k="0.000000">906</waveLength>
+            </refractive_index>
+        </Optical>
+        <Edge>0.5</Edge>
+        <Center>2</Center>
+        <Beta>0</Beta>
+        <mc>1</mc>
+        <mv>1</mv>
+        <Field_dependent_mobility exist="0" />
+        <bandgap_narrowing exist="0" />
+    </Material>
+    <Material name="GaInP" thickness="0.17">
+        <Electric>
+            <Dielectric>10.9</Dielectric>
+            <Eg>1.89</Eg>
+            <Affinity>4.16</Affinity>
+            <Nc>7.9e17</Nc>
+            <Nv>1.16e19</Nv>
+            <mobility_n>1000</mobility_n>
+            <mobility_p>40</mobility_p>
+            <Nd>1.8e18</Nd>
+            <Na>0</Na>
+        </Electric>
+        <Defect number="1">
+            <AcceptorLike>
+                <type>0</type>
+                <distribution>0</distribution>
+                <density>1e14</density>
+                <energy>0.9</energy>
+                <width>0</width>
+                <sigN>1e-13</sigN>
+                <sigP>1e-13</sigP>
+            </AcceptorLike>
+            <Band_tail exist="0" />
+        </Defect>
+        <Optical>
+            <A>0</A>
+            <B>0</B>
+            <refractive_index wavelength_unit="nm">
+                <waveLength n="3.025540" k="3.741660">249</waveLength>
+                <waveLength n="3.198360" k="3.687810">251</waveLength>
+                <waveLength n="3.460110" k="3.558630">254</waveLength>
+                <waveLength n="3.598510" k="3.407910">257</waveLength>
+                <waveLength n="3.749680" k="3.289500">259</waveLength>
+                <waveLength n="3.888340" k="3.084940">262</waveLength>
+                <waveLength n="3.917870" k="2.923440">264</waveLength>
+                <waveLength n="3.947790" k="2.826560">266</waveLength>
+                <waveLength n="3.976650" k="2.622000">270</waveLength>
+                <waveLength n="3.964690" k="2.428250">273</waveLength>
+                <waveLength n="3.914110" k="2.266750">278</waveLength>
+                <waveLength n="3.873780" k="2.148350">282</waveLength>
+                <waveLength n="3.806580" k="2.062190">287</waveLength>
+                <waveLength n="3.729000" k="1.954560">294</waveLength>
+                <waveLength n="3.688830" k="1.868440">302</waveLength>
+                <waveLength n="3.676160" k="1.857660">310</waveLength>
+                <waveLength n="3.676160" k="1.857660">317</waveLength>
+                <waveLength n="3.707100" k="1.857660">329</waveLength>
+                <waveLength n="3.841550" k="1.868440">343</waveLength>
+                <waveLength n="4.006690" k="1.846870">355</waveLength>
+                <waveLength n="4.134260" k="1.825340">362</waveLength>
+                <waveLength n="4.272750" k="1.739250">368</waveLength>
+                <waveLength n="4.425740" k="1.620810">377</waveLength>
+                <waveLength n="4.570610" k="1.394750">386</waveLength>
+                <waveLength n="4.588640" k="1.190190">390</waveLength>
+                <waveLength n="4.590410" k="1.045370">394</waveLength>
+                <waveLength n="4.545760" k="0.887490">401</waveLength>
+                <waveLength n="4.445230" k="0.715280">410</waveLength>
+                <waveLength n="4.260530" k="0.557370">425</waveLength>
+                <waveLength n="4.151180" k="0.471250">437</waveLength>
+                <waveLength n="4.026080" k="0.385160">455</waveLength>
+                <waveLength n="3.903570" k="0.342090">475</waveLength>
+                <waveLength n="3.781100" k="0.227250">510</waveLength>
+                <waveLength n="3.683790" k="0.212910">543</waveLength>
+                <waveLength n="3.617620" k="0.169840">573</waveLength>
+                <waveLength n="3.603630" k="0.171490">585</waveLength>
+                <waveLength n="3.603630" k="0.174250">606</waveLength>
+                <waveLength n="3.603630" k="0.173050">608</waveLength>
+                <waveLength n="3.603630" k="0.171260">609</waveLength>
+                <waveLength n="3.603630" k="0.170660">612</waveLength>
+                <waveLength n="3.603630" k="0.167670">614</waveLength>
+                <waveLength n="3.603630" k="0.167070">616</waveLength>
+                <waveLength n="3.603630" k="0.165870">619</waveLength>
+                <waveLength n="3.603630" k="0.164070">623</waveLength>
+                <waveLength n="3.603630" k="0.160480">625</waveLength>
+                <waveLength n="3.603630" k="0.156890">629</waveLength>
+                <waveLength n="3.603630" k="0.152100">633</waveLength>
+                <waveLength n="3.603630" k="0.148500">636</waveLength>
+                <waveLength n="3.603630" k="0.144310">639</waveLength>
+                <waveLength n="3.603630" k="0.140120">641</waveLength>
+                <waveLength n="3.603130" k="0.132940">643</waveLength>
+                <waveLength n="3.601570" k="0.127550">646</waveLength>
+                <waveLength n="3.600450" k="0.121560">647</waveLength>
+                <waveLength n="3.598990" k="0.114970">650</waveLength>
+                <waveLength n="3.597740" k="0.105990">652</waveLength>
+                <waveLength n="3.596600" k="0.098200">653</waveLength>
+                <waveLength n="3.595460" k="0.088020">655</waveLength>
+                <waveLength n="3.594190" k="0.078440">657</waveLength>
+                <waveLength n="3.592310" k="0.067070">659</waveLength>
+                <waveLength n="3.588090" k="0.056290">661</waveLength>
+                <waveLength n="3.582880" k="0.043110">663</waveLength>
+                <waveLength n="3.577680" k="0.028740">665</waveLength>
+                <waveLength n="3.574340" k="0.020360">666</waveLength>
+                <waveLength n="3.573390" k="0.016770">666</waveLength>
+                <waveLength n="3.571030" k="0.011110">667</waveLength>
+                <waveLength n="3.559820" k="0.004880">673</waveLength>
+                <waveLength n="3.558690" k="0.000000">674</waveLength>
+                <waveLength n="3.553980" k="0.000000">679</waveLength>
+                <waveLength n="3.519790" k="0.000000">693</waveLength>
+                <waveLength n="3.495200" k="0.000000">699</waveLength>
+                <waveLength n="3.479900" k="0.000000">704</waveLength>
+                <waveLength n="3.465250" k="0.000000">709</waveLength>
+                <waveLength n="3.453600" k="0.000000">714</waveLength>
+                <waveLength n="3.438630" k="0.000000">720</waveLength>
+                <waveLength n="3.419100" k="0.000000">730</waveLength>
+                <waveLength n="3.404080" k="0.000000">739</waveLength>
+                <waveLength n="3.393560" k="0.000000">746</waveLength>
+                <waveLength n="3.380040" k="0.000000">753</waveLength>
+                <waveLength n="3.366510" k="0.000000">763</waveLength>
+                <waveLength n="3.355990" k="0.000000">772</waveLength>
+                <waveLength n="3.346980" k="0.000000">781</waveLength>
+                <waveLength n="3.331950" k="0.000000">792</waveLength>
+                <waveLength n="3.325940" k="0.000000">799</waveLength>
+                <waveLength n="3.316930" k="0.000000">807</waveLength>
+                <waveLength n="3.306410" k="0.000000">818</waveLength>
+                <waveLength n="3.294390" k="0.000000">830</waveLength>
+                <waveLength n="3.283870" k="0.000000">841</waveLength>
+                <waveLength n="3.274860" k="0.000000">853</waveLength>
+                <waveLength n="3.265840" k="0.000000">866</waveLength>
+                <waveLength n="3.258330" k="0.000000">875</waveLength>
+                <waveLength n="3.255320" k="0.000000">884</waveLength>
+                <waveLength n="3.246310" k="0.000000">898</waveLength>
+                <waveLength n="3.240300" k="0.000000">906</waveLength>
+                <waveLength n="3.237290" k="0.000000">916</waveLength>
+                <waveLength n="3.231290" k="0.000000">926</waveLength>
+                <waveLength n="3.231290" k="0.000000">932</waveLength>
+                <waveLength n="3.222270" k="0.000000">942</waveLength>
+                <waveLength n="3.219260" k="0.000000">953</waveLength>
+            </refractive_index>
+        </Optical>
+        <Edge>1</Edge>
+        <Center>10</Center>
+        <Beta>0</Beta>
+        <mc>1</mc>
+        <mv>1</mv>
+        <Field_dependent_mobility exist="0" />
+        <bandgap_narrowing exist="0" />
+    </Material>
+    <Material name="GaInP" thickness="0.8">
+        <Electric>
+            <Dielectric>10.9</Dielectric>
+            <Eg>1.89</Eg>
+            <Affinity>4.16</Affinity>
+            <Nc>7.9e17</Nc>
+            <Nv>1.16e19</Nv>
+            <mobility_n>1000</mobility_n>
+            <mobility_p>40</mobility_p>
+            <Nd>0</Nd>
+            <Na>1.0e17</Na>
+        </Electric>
+        <Defect number="1">
+            <AcceptorLike>
+                <type>0</type>
+                <distribution>0</distribution>
+                <density>1e14</density>
+                <energy>0.9</energy>
+                <width>0</width>
+                <sigN>1e-12</sigN>
+                <sigP>1e-12</sigP>
+            </AcceptorLike>
+            <Band_tail exist="0" />
+        </Defect>
+        <Optical>
+            <A>0</A>
+            <B>0</B>
+            <refractive_index wavelength_unit="nm">
+                <waveLength n="3.025540" k="3.741660">249</waveLength>
+                <waveLength n="3.198360" k="3.687810">251</waveLength>
+                <waveLength n="3.460110" k="3.558630">254</waveLength>
+                <waveLength n="3.598510" k="3.407910">257</waveLength>
+                <waveLength n="3.749680" k="3.289500">259</waveLength>
+                <waveLength n="3.888340" k="3.084940">262</waveLength>
+                <waveLength n="3.917870" k="2.923440">264</waveLength>
+                <waveLength n="3.947790" k="2.826560">266</waveLength>
+                <waveLength n="3.976650" k="2.622000">270</waveLength>
+                <waveLength n="3.964690" k="2.428250">273</waveLength>
+                <waveLength n="3.914110" k="2.266750">278</waveLength>
+                <waveLength n="3.873780" k="2.148350">282</waveLength>
+                <waveLength n="3.806580" k="2.062190">287</waveLength>
+                <waveLength n="3.729000" k="1.954560">294</waveLength>
+                <waveLength n="3.688830" k="1.868440">302</waveLength>
+                <waveLength n="3.676160" k="1.857660">310</waveLength>
+                <waveLength n="3.676160" k="1.857660">317</waveLength>
+                <waveLength n="3.707100" k="1.857660">329</waveLength>
+                <waveLength n="3.841550" k="1.868440">343</waveLength>
+                <waveLength n="4.006690" k="1.846870">355</waveLength>
+                <waveLength n="4.134260" k="1.825340">362</waveLength>
+                <waveLength n="4.272750" k="1.739250">368</waveLength>
+                <waveLength n="4.425740" k="1.620810">377</waveLength>
+                <waveLength n="4.570610" k="1.394750">386</waveLength>
+                <waveLength n="4.588640" k="1.190190">390</waveLength>
+                <waveLength n="4.590410" k="1.045370">394</waveLength>
+                <waveLength n="4.545760" k="0.887490">401</waveLength>
+                <waveLength n="4.445230" k="0.715280">410</waveLength>
+                <waveLength n="4.260530" k="0.557370">425</waveLength>
+                <waveLength n="4.151180" k="0.471250">437</waveLength>
+                <waveLength n="4.026080" k="0.385160">455</waveLength>
+                <waveLength n="3.903570" k="0.342090">475</waveLength>
+                <waveLength n="3.781100" k="0.227250">510</waveLength>
+                <waveLength n="3.683790" k="0.212910">543</waveLength>
+                <waveLength n="3.617620" k="0.169840">573</waveLength>
+                <waveLength n="3.603630" k="0.171490">585</waveLength>
+                <waveLength n="3.603630" k="0.174250">606</waveLength>
+                <waveLength n="3.603630" k="0.173050">608</waveLength>
+                <waveLength n="3.603630" k="0.171260">609</waveLength>
+                <waveLength n="3.603630" k="0.170660">612</waveLength>
+                <waveLength n="3.603630" k="0.167670">614</waveLength>
+                <waveLength n="3.603630" k="0.167070">616</waveLength>
+                <waveLength n="3.603630" k="0.165870">619</waveLength>
+                <waveLength n="3.603630" k="0.164070">623</waveLength>
+                <waveLength n="3.603630" k="0.160480">625</waveLength>
+                <waveLength n="3.603630" k="0.156890">629</waveLength>
+                <waveLength n="3.603630" k="0.152100">633</waveLength>
+                <waveLength n="3.603630" k="0.148500">636</waveLength>
+                <waveLength n="3.603630" k="0.144310">639</waveLength>
+                <waveLength n="3.603630" k="0.140120">641</waveLength>
+                <waveLength n="3.603130" k="0.132940">643</waveLength>
+                <waveLength n="3.601570" k="0.127550">646</waveLength>
+                <waveLength n="3.600450" k="0.121560">647</waveLength>
+                <waveLength n="3.598990" k="0.114970">650</waveLength>
+                <waveLength n="3.597740" k="0.105990">652</waveLength>
+                <waveLength n="3.596600" k="0.098200">653</waveLength>
+                <waveLength n="3.595460" k="0.088020">655</waveLength>
+                <waveLength n="3.594190" k="0.078440">657</waveLength>
+                <waveLength n="3.592310" k="0.067070">659</waveLength>
+                <waveLength n="3.588090" k="0.056290">661</waveLength>
+                <waveLength n="3.582880" k="0.043110">663</waveLength>
+                <waveLength n="3.577680" k="0.028740">665</waveLength>
+                <waveLength n="3.574340" k="0.020360">666</waveLength>
+                <waveLength n="3.573390" k="0.016770">666</waveLength>
+                <waveLength n="3.571030" k="0.011110">667</waveLength>
+                <waveLength n="3.559820" k="0.004880">673</waveLength>
+                <waveLength n="3.558690" k="0.000000">674</waveLength>
+                <waveLength n="3.553980" k="0.000000">679</waveLength>
+                <waveLength n="3.519790" k="0.000000">693</waveLength>
+                <waveLength n="3.495200" k="0.000000">699</waveLength>
+                <waveLength n="3.479900" k="0.000000">704</waveLength>
+                <waveLength n="3.465250" k="0.000000">709</waveLength>
+                <waveLength n="3.453600" k="0.000000">714</waveLength>
+                <waveLength n="3.438630" k="0.000000">720</waveLength>
+                <waveLength n="3.419100" k="0.000000">730</waveLength>
+                <waveLength n="3.404080" k="0.000000">739</waveLength>
+                <waveLength n="3.393560" k="0.000000">746</waveLength>
+                <waveLength n="3.380040" k="0.000000">753</waveLength>
+                <waveLength n="3.366510" k="0.000000">763</waveLength>
+                <waveLength n="3.355990" k="0.000000">772</waveLength>
+                <waveLength n="3.346980" k="0.000000">781</waveLength>
+                <waveLength n="3.331950" k="0.000000">792</waveLength>
+                <waveLength n="3.325940" k="0.000000">799</waveLength>
+                <waveLength n="3.316930" k="0.000000">807</waveLength>
+                <waveLength n="3.306410" k="0.000000">818</waveLength>
+                <waveLength n="3.294390" k="0.000000">830</waveLength>
+                <waveLength n="3.283870" k="0.000000">841</waveLength>
+                <waveLength n="3.274860" k="0.000000">853</waveLength>
+                <waveLength n="3.265840" k="0.000000">866</waveLength>
+                <waveLength n="3.258330" k="0.000000">875</waveLength>
+                <waveLength n="3.255320" k="0.000000">884</waveLength>
+                <waveLength n="3.246310" k="0.000000">898</waveLength>
+                <waveLength n="3.240300" k="0.000000">906</waveLength>
+                <waveLength n="3.237290" k="0.000000">916</waveLength>
+                <waveLength n="3.231290" k="0.000000">926</waveLength>
+                <waveLength n="3.231290" k="0.000000">932</waveLength>
+                <waveLength n="3.222270" k="0.000000">942</waveLength>
+                <waveLength n="3.219260" k="0.000000">953</waveLength>
+            </refractive_index>
+        </Optical>
+        <Edge>1</Edge>
+        <Center>20</Center>
+        <Beta>0</Beta>
+        <mc>1</mc>
+        <mv>1</mv>
+        <Field_dependent_mobility exist="0" />
+        <bandgap_narrowing exist="0" />
+    </Material>
+    <Material name="AlInGaP" thickness="0.1">
+        <Electric>
+            <Dielectric>10</Dielectric>
+            <Eg>2.21</Eg>
+            <Affinity>4.2</Affinity>
+            <Nc>4.3e17</Nc>
+            <Nv>8.7e18</Nv>
+            <mobility_n>8500</mobility_n>
+            <mobility_p>400</mobility_p>
+            <Nd>0</Nd>
+            <Na>3e17</Na>
+        </Electric>
+        <Defect number="1">
+            <AcceptorLike>
+                <type>0</type>
+                <distribution>0</distribution>
+                <density>1e14</density>
+                <energy>0.9</energy>
+                <width>0</width>
+                <sigN>1e-13</sigN>
+                <sigP>1e-13</sigP>
+            </AcceptorLike>
+            <Band_tail exist="0" />
+        </Defect>
+        <Optical>
+            <A>0</A>
+            <B>0</B>
+            <refractive_index wavelength_unit="nm">
+                <waveLength n="3.025540" k="3.741660">249</waveLength>
+                <waveLength n="3.198360" k="3.687810">251</waveLength>
+                <waveLength n="3.460110" k="3.558630">254</waveLength>
+                <waveLength n="3.598510" k="3.407910">257</waveLength>
+                <waveLength n="3.749680" k="3.289500">259</waveLength>
+                <waveLength n="3.888340" k="3.084940">262</waveLength>
+                <waveLength n="3.917870" k="2.923440">264</waveLength>
+                <waveLength n="3.947790" k="2.826560">266</waveLength>
+                <waveLength n="3.976650" k="2.622000">270</waveLength>
+                <waveLength n="3.964690" k="2.428250">273</waveLength>
+                <waveLength n="3.914110" k="2.266750">278</waveLength>
+                <waveLength n="3.873780" k="2.148350">282</waveLength>
+                <waveLength n="3.806580" k="2.062190">287</waveLength>
+                <waveLength n="3.729000" k="1.954560">294</waveLength>
+                <waveLength n="3.688830" k="1.868440">302</waveLength>
+                <waveLength n="3.676160" k="1.857660">310</waveLength>
+                <waveLength n="3.676160" k="1.857660">317</waveLength>
+                <waveLength n="3.707100" k="1.857660">329</waveLength>
+                <waveLength n="3.841550" k="1.868440">343</waveLength>
+                <waveLength n="4.006690" k="1.846870">355</waveLength>
+                <waveLength n="4.134260" k="1.825340">362</waveLength>
+                <waveLength n="4.272750" k="1.739250">368</waveLength>
+                <waveLength n="4.425740" k="1.620810">377</waveLength>
+                <waveLength n="4.570610" k="1.394750">386</waveLength>
+                <waveLength n="4.588640" k="1.190190">390</waveLength>
+                <waveLength n="4.590410" k="1.045370">394</waveLength>
+                <waveLength n="4.545760" k="0.887490">401</waveLength>
+                <waveLength n="4.445230" k="0.715280">410</waveLength>
+                <waveLength n="4.260530" k="0.557370">425</waveLength>
+                <waveLength n="4.151180" k="0.471250">437</waveLength>
+                <waveLength n="4.026080" k="0.385160">455</waveLength>
+                <waveLength n="3.903570" k="0.342090">475</waveLength>
+                <waveLength n="3.781100" k="0.227250">510</waveLength>
+                <waveLength n="3.683790" k="0.212910">543</waveLength>
+                <waveLength n="3.617620" k="0.169840">573</waveLength>
+                <waveLength n="3.603630" k="0.171490">585</waveLength>
+                <waveLength n="3.603630" k="0.174250">606</waveLength>
+                <waveLength n="3.603630" k="0.173050">608</waveLength>
+                <waveLength n="3.603630" k="0.171260">609</waveLength>
+                <waveLength n="3.603630" k="0.170660">612</waveLength>
+                <waveLength n="3.603630" k="0.167670">614</waveLength>
+                <waveLength n="3.603630" k="0.167070">616</waveLength>
+                <waveLength n="3.603630" k="0.165870">619</waveLength>
+                <waveLength n="3.603630" k="0.164070">623</waveLength>
+                <waveLength n="3.603630" k="0.160480">625</waveLength>
+                <waveLength n="3.603630" k="0.156890">629</waveLength>
+                <waveLength n="3.603630" k="0.152100">633</waveLength>
+                <waveLength n="3.603630" k="0.148500">636</waveLength>
+                <waveLength n="3.603630" k="0.144310">639</waveLength>
+                <waveLength n="3.603630" k="0.140120">641</waveLength>
+                <waveLength n="3.603130" k="0.132940">643</waveLength>
+                <waveLength n="3.601570" k="0.127550">646</waveLength>
+                <waveLength n="3.600450" k="0.121560">647</waveLength>
+                <waveLength n="3.598990" k="0.114970">650</waveLength>
+                <waveLength n="3.597740" k="0.105990">652</waveLength>
+                <waveLength n="3.596600" k="0.098200">653</waveLength>
+                <waveLength n="3.595460" k="0.088020">655</waveLength>
+                <waveLength n="3.594190" k="0.078440">657</waveLength>
+                <waveLength n="3.592310" k="0.067070">659</waveLength>
+                <waveLength n="3.588090" k="0.056290">661</waveLength>
+                <waveLength n="3.582880" k="0.043110">663</waveLength>
+                <waveLength n="3.577680" k="0.028740">665</waveLength>
+                <waveLength n="3.574340" k="0.020360">666</waveLength>
+                <waveLength n="3.573390" k="0.016770">666</waveLength>
+                <waveLength n="3.571030" k="0.011110">667</waveLength>
+                <waveLength n="3.559820" k="0.004880">673</waveLength>
+                <waveLength n="3.558690" k="0.000000">674</waveLength>
+                <waveLength n="3.553980" k="0.000000">679</waveLength>
+                <waveLength n="3.519790" k="0.000000">693</waveLength>
+                <waveLength n="3.495200" k="0.000000">699</waveLength>
+                <waveLength n="3.479900" k="0.000000">704</waveLength>
+                <waveLength n="3.465250" k="0.000000">709</waveLength>
+                <waveLength n="3.453600" k="0.000000">714</waveLength>
+                <waveLength n="3.438630" k="0.000000">720</waveLength>
+                <waveLength n="3.419100" k="0.000000">730</waveLength>
+                <waveLength n="3.404080" k="0.000000">739</waveLength>
+                <waveLength n="3.393560" k="0.000000">746</waveLength>
+                <waveLength n="3.380040" k="0.000000">753</waveLength>
+                <waveLength n="3.366510" k="0.000000">763</waveLength>
+                <waveLength n="3.355990" k="0.000000">772</waveLength>
+                <waveLength n="3.346980" k="0.000000">781</waveLength>
+                <waveLength n="3.331950" k="0.000000">792</waveLength>
+                <waveLength n="3.325940" k="0.000000">799</waveLength>
+                <waveLength n="3.316930" k="0.000000">807</waveLength>
+                <waveLength n="3.306410" k="0.000000">818</waveLength>
+                <waveLength n="3.294390" k="0.000000">830</waveLength>
+                <waveLength n="3.283870" k="0.000000">841</waveLength>
+                <waveLength n="3.274860" k="0.000000">853</waveLength>
+                <waveLength n="3.265840" k="0.000000">866</waveLength>
+                <waveLength n="3.258330" k="0.000000">875</waveLength>
+                <waveLength n="3.255320" k="0.000000">884</waveLength>
+                <waveLength n="3.246310" k="0.000000">898</waveLength>
+                <waveLength n="3.240300" k="0.000000">906</waveLength>
+                <waveLength n="3.237290" k="0.000000">916</waveLength>
+                <waveLength n="3.231290" k="0.000000">926</waveLength>
+                <waveLength n="3.231290" k="0.000000">932</waveLength>
+                <waveLength n="3.222270" k="0.000000">942</waveLength>
+                <waveLength n="3.219260" k="0.000000">953</waveLength>
+            </refractive_index>
+        </Optical>
+        <Edge>0.5</Edge>
+        <Center>5</Center>
+        <Beta>0</Beta>
+        <mc>1</mc>
+        <mv>1</mv>
+        <Field_dependent_mobility exist="0" />
+        <bandgap_narrowing exist="0" />
+    </Material>
+    <Material name="p+ GaAs" thickness="0.05">
+        <Electric>
+            <Dielectric>10.9</Dielectric>
+            <Eg>1.42</Eg>
+            <Affinity>4.07</Affinity>
+            <Nc>4.3e17</Nc>
+            <Nv>8.7e18</Nv>
+            <mobility_n>8500</mobility_n>
+            <mobility_p>400</mobility_p>
+            <Nd>0</Nd>
+            <Na>5e19</Na>
+        </Electric>
+        <Defect number="0">
+            <Band_tail exist="0" />
+        </Defect>
+        <Optical>
+            <A>1e3</A>
+            <B>0</B>
+            <refractive_index wavelength_unit="nm">
+                <waveLength n="4.417000" k="2.136000">398</waveLength>
+                <waveLength n="4.459000" k="2.081000">400</waveLength>
+                <waveLength n="4.488000" k="2.030000">402</waveLength>
+                <waveLength n="4.509000" k="1.989000">404</waveLength>
+                <waveLength n="4.527000" k="1.951000">406</waveLength>
+                <waveLength n="4.542000" k="1.923000">407</waveLength>
+                <waveLength n="4.556000" k="1.902000">409</waveLength>
+                <waveLength n="4.577000" k="1.886000">412</waveLength>
+                <waveLength n="4.602000" k="1.879000">414</waveLength>
+                <waveLength n="4.633000" k="1.882000">415</waveLength>
+                <waveLength n="4.685000" k="1.887000">417</waveLength>
+                <waveLength n="4.755000" k="1.887000">419</waveLength>
+                <waveLength n="4.849000" k="1.868000">421</waveLength>
+                <waveLength n="4.949000" k="1.815000">424</waveLength>
+                <waveLength n="5.080000" k="1.675000">426</waveLength>
+                <waveLength n="5.126000" k="1.562000">427</waveLength>
+                <waveLength n="5.152000" k="1.438000">429</waveLength>
+                <waveLength n="5.152000" k="1.323000">431</waveLength>
+                <waveLength n="5.135000" k="1.225000">434</waveLength>
+                <waveLength n="5.110000" k="1.135000">436</waveLength>
+                <waveLength n="5.073000" k="1.056000">438</waveLength>
+                <waveLength n="5.041000" k="0.990000">439</waveLength>
+                <waveLength n="5.002000" k="0.928000">441</waveLength>
+                <waveLength n="4.962000" k="0.877000">444</waveLength>
+                <waveLength n="4.924000" k="0.829000">446</waveLength>
+                <waveLength n="4.884000" k="0.788000">448</waveLength>
+                <waveLength n="4.858000" k="0.755000">450</waveLength>
+                <waveLength n="4.778000" k="0.678000">455</waveLength>
+                <waveLength n="4.702000" k="0.617000">460</waveLength>
+                <waveLength n="4.634000" k="0.566000">465</waveLength>
+                <waveLength n="4.575000" k="0.527000">469</waveLength>
+                <waveLength n="4.518000" k="0.492000">474</waveLength>
+                <waveLength n="4.467000" k="0.463000">479</waveLength>
+                <waveLength n="4.420000" k="0.436000">485</waveLength>
+                <waveLength n="4.376000" k="0.414000">489</waveLength>
+                <waveLength n="4.341000" k="0.394000">495</waveLength>
+                <waveLength n="4.307000" k="0.376000">500</waveLength>
+                <waveLength n="4.272000" k="0.360000">504</waveLength>
+                <waveLength n="4.242000" k="0.346000">510</waveLength>
+                <waveLength n="4.212000" k="0.334000">514</waveLength>
+                <waveLength n="4.186000" k="0.322000">520</waveLength>
+                <waveLength n="4.162000" k="0.311000">525</waveLength>
+                <waveLength n="4.141000" k="0.301000">530</waveLength>
+                <waveLength n="4.116000" k="0.291000">535</waveLength>
+                <waveLength n="4.096000" k="0.282000">540</waveLength>
+                <waveLength n="4.076000" k="0.275000">545</waveLength>
+                <waveLength n="4.058000" k="0.268000">550</waveLength>
+                <waveLength n="4.040000" k="0.261000">555</waveLength>
+                <waveLength n="4.024000" k="0.255000">560</waveLength>
+                <waveLength n="4.009000" k="0.248000">564</waveLength>
+                <waveLength n="3.993000" k="0.243000">569</waveLength>
+                <waveLength n="3.977000" k="0.237000">574</waveLength>
+                <waveLength n="3.960000" k="0.232000">580</waveLength>
+                <waveLength n="3.946000" k="0.227000">584</waveLength>
+                <waveLength n="3.934000" k="0.222000">590</waveLength>
+                <waveLength n="3.923000" k="0.218000">594</waveLength>
+                <waveLength n="3.912000" k="0.214000">600</waveLength>
+                <waveLength n="3.900000" k="0.210000">604</waveLength>
+                <waveLength n="3.891000" k="0.206000">610</waveLength>
+                <waveLength n="3.881000" k="0.203000">614</waveLength>
+                <waveLength n="3.874000" k="0.199000">620</waveLength>
+                <waveLength n="3.865000" k="0.195000">625</waveLength>
+                <waveLength n="3.851000" k="0.191000">630</waveLength>
+                <waveLength n="3.844000" k="0.188000">635</waveLength>
+                <waveLength n="3.839000" k="0.185000">640</waveLength>
+                <waveLength n="3.831000" k="0.182000">645</waveLength>
+                <waveLength n="3.825000" k="0.178000">650</waveLength>
+                <waveLength n="3.815000" k="0.175000">655</waveLength>
+                <waveLength n="3.809000" k="0.171000">660</waveLength>
+                <waveLength n="3.804000" k="0.168000">665</waveLength>
+                <waveLength n="3.798000" k="0.164000">670</waveLength>
+                <waveLength n="3.793000" k="0.162000">675</waveLength>
+                <waveLength n="3.787000" k="0.159000">680</waveLength>
+                <waveLength n="3.784000" k="0.154000">685</waveLength>
+                <waveLength n="3.779000" k="0.151000">690</waveLength>
+                <waveLength n="3.776000" k="0.148000">694</waveLength>
+                <waveLength n="3.770000" k="0.141000">700</waveLength>
+                <waveLength n="3.766000" k="0.135000">704</waveLength>
+                <waveLength n="3.758000" k="0.131000">710</waveLength>
+                <waveLength n="3.749000" k="0.126000">714</waveLength>
+                <waveLength n="3.744000" k="0.123000">720</waveLength>
+                <waveLength n="3.739000" k="0.120000">724</waveLength>
+                <waveLength n="3.734000" k="0.116000">730</waveLength>
+                <waveLength n="3.728000" k="0.114000">735</waveLength>
+                <waveLength n="3.721000" k="0.111000">740</waveLength>
+                <waveLength n="3.716000" k="0.108000">745</waveLength>
+                <waveLength n="3.712000" k="0.108000">750</waveLength>
+                <waveLength n="3.709000" k="0.105000">755</waveLength>
+                <waveLength n="3.703000" k="0.105000">759</waveLength>
+                <waveLength n="3.698000" k="0.101000">765</waveLength>
+                <waveLength n="3.692000" k="0.101000">769</waveLength>
+                <waveLength n="3.689000" k="0.097000">775</waveLength>
+                <waveLength n="3.685000" k="0.095000">780</waveLength>
+                <waveLength n="3.684000" k="0.094000">785</waveLength>
+                <waveLength n="3.680000" k="0.092000">790</waveLength>
+                <waveLength n="3.679000" k="0.089000">795</waveLength>
+                <waveLength n="3.679000" k="0.089000">800</waveLength>
+                <waveLength n="3.672000" k="0.086000">805</waveLength>
+                <waveLength n="3.669000" k="0.082000">810</waveLength>
+                <waveLength n="3.669000" k="0.084000">814</waveLength>
+                <waveLength n="3.662000" k="0.081000">819</waveLength>
+                <waveLength n="3.661000" k="0.077000">824</waveLength>
+                <waveLength n="3.661000" k="0.075000">829</waveLength>
+                <waveLength n="3.663000" k="0.070000">835</waveLength>
+                <waveLength n="3.645000" k="0.074000">839</waveLength>
+                <waveLength n="3.627000" k="0.060000">845</waveLength>
+                <waveLength n="3.609000" k="0.046000">849</waveLength>
+                <waveLength n="3.591000" k="0.032000">855</waveLength>
+                <waveLength n="3.573000" k="0.018000">859</waveLength>
+                <waveLength n="3.555000" k="0.004000">865</waveLength>
+                <waveLength n="3.537000" k="0.000010">869</waveLength>
+                <waveLength n="3.519000" k="0.000010">875</waveLength>
+                <waveLength n="3.501000" k="0.000010">879</waveLength>
+                <waveLength n="3.483000" k="0.000010">885</waveLength>
+                <waveLength n="3.465000" k="0.000010">890</waveLength>
+                <waveLength n="3.447000" k="0.000010">895</waveLength>
+                <waveLength n="3.429000" k="0.000000">900</waveLength>
+            </refractive_index>
+        </Optical>
+        <Edge>.01</Edge>
+        <Center>1</Center>
+        <Beta>0</Beta>
+        <mc>0.05</mc>
+        <mv>0.14</mv>
+        <Field_dependent_mobility exist="0" />
+        <bandgap_narrowing exist="1">
+            <Ec_fraction>0.5</Ec_fraction>
+            <Eref>6.92e-3</Eref>
+            <nref>1.3e17</nref>
+        </bandgap_narrowing>
+    </Material>
+    <Material name="n+ GaAs" thickness="0.05">
+        <Electric>
+            <Dielectric>10.9</Dielectric>
+            <Eg>1.42</Eg>
+            <Affinity>4.07</Affinity>
+            <Nc>4.3e17</Nc>
+            <Nv>8.7e18</Nv>
+            <mobility_n>8500</mobility_n>
+            <mobility_p>400</mobility_p>
+            <Nd>3e19</Nd>
+            <Na>0</Na>
+        </Electric>
+        <Defect number="0">
+            <Band_tail exist="0" />
+        </Defect>
+        <Optical>
+            <A>1e3</A>
+            <B>0</B>
+            <refractive_index wavelength_unit="nm">
+                <waveLength n="3.301515" k="0.003479">200</waveLength>
+                <waveLength n="3.301515" k="0.003539">210</waveLength>
+                <waveLength n="3.301515" k="0.003595">220</waveLength>
+                <waveLength n="3.301515" k="0.003647">230</waveLength>
+                <waveLength n="3.301515" k="0.003696">240</waveLength>
+                <waveLength n="3.301515" k="0.003743">250</waveLength>
+                <waveLength n="3.301515" k="0.003786">260</waveLength>
+                <waveLength n="3.301515" k="0.003827">270</waveLength>
+                <waveLength n="3.301515" k="0.003864">280</waveLength>
+                <waveLength n="3.301515" k="0.003900">290</waveLength>
+                <waveLength n="3.301515" k="0.003932">300</waveLength>
+                <waveLength n="3.301515" k="0.003962">310</waveLength>
+                <waveLength n="3.301515" k="0.003990">320</waveLength>
+                <waveLength n="3.301515" k="0.004015">330</waveLength>
+                <waveLength n="3.301515" k="0.004037">340</waveLength>
+                <waveLength n="3.301515" k="0.004058">350</waveLength>
+                <waveLength n="3.301515" k="0.004076">360</waveLength>
+                <waveLength n="3.301515" k="0.004091">370</waveLength>
+                <waveLength n="3.301515" k="0.004105">380</waveLength>
+                <waveLength n="3.301515" k="0.004116">390</waveLength>
+                <waveLength n="3.301515" k="0.004125">400</waveLength>
+                <waveLength n="3.301515" k="0.004132">410</waveLength>
+                <waveLength n="3.301515" k="0.004137">420</waveLength>
+                <waveLength n="3.301515" k="0.004139">430</waveLength>
+                <waveLength n="3.301515" k="0.004140">440</waveLength>
+                <waveLength n="3.301515" k="0.004138">450</waveLength>
+                <waveLength n="3.301515" k="0.004134">460</waveLength>
+                <waveLength n="3.301515" k="0.004128">470</waveLength>
+                <waveLength n="3.301515" k="0.004119">480</waveLength>
+                <waveLength n="3.301515" k="0.004109">490</waveLength>
+                <waveLength n="3.301515" k="0.004096">500</waveLength>
+                <waveLength n="3.301515" k="0.004081">510</waveLength>
+                <waveLength n="3.301515" k="0.004064">520</waveLength>
+                <waveLength n="3.301515" k="0.004044">530</waveLength>
+                <waveLength n="3.301515" k="0.004022">540</waveLength>
+                <waveLength n="3.301515" k="0.003998">550</waveLength>
+                <waveLength n="3.301515" k="0.003971">560</waveLength>
+                <waveLength n="3.301515" k="0.003942">570</waveLength>
+                <waveLength n="3.301515" k="0.003910">580</waveLength>
+                <waveLength n="3.301515" k="0.003876">590</waveLength>
+                <waveLength n="3.301515" k="0.003839">600</waveLength>
+                <waveLength n="3.301515" k="0.003799">610</waveLength>
+                <waveLength n="3.301515" k="0.003757">620</waveLength>
+                <waveLength n="3.301515" k="0.003711">630</waveLength>
+                <waveLength n="3.301515" k="0.003663">640</waveLength>
+                <waveLength n="3.301515" k="0.003611">650</waveLength>
+                <waveLength n="3.301515" k="0.003557">660</waveLength>
+                <waveLength n="3.301515" k="0.003498">670</waveLength>
+                <waveLength n="3.301515" k="0.003436">680</waveLength>
+                <waveLength n="3.301515" k="0.003371">690</waveLength>
+                <waveLength n="3.301515" k="0.003301">700</waveLength>
+                <waveLength n="3.301515" k="0.003227">710</waveLength>
+                <waveLength n="3.301515" k="0.003149">720</waveLength>
+                <waveLength n="3.301515" k="0.003065">730</waveLength>
+                <waveLength n="3.301515" k="0.002976">740</waveLength>
+                <waveLength n="3.301515" k="0.002882">750</waveLength>
+                <waveLength n="3.301515" k="0.002780">760</waveLength>
+                <waveLength n="3.301515" k="0.002672">770</waveLength>
+                <waveLength n="3.301515" k="0.002556">780</waveLength>
+                <waveLength n="3.301515" k="0.002430">790</waveLength>
+                <waveLength n="3.301515" k="0.002294">800</waveLength>
+                <waveLength n="3.301515" k="0.002144">810</waveLength>
+                <waveLength n="3.301515" k="0.001979">820</waveLength>
+                <waveLength n="3.301515" k="0.001794">830</waveLength>
+                <waveLength n="3.301515" k="0.001582">840</waveLength>
+                <waveLength n="3.301515" k="0.001330">850</waveLength>
+                <waveLength n="3.301515" k="0.001008">860</waveLength>
+                <waveLength n="3.301515" k="0.000495">870</waveLength>
+                <waveLength n="3.301515" k="0.000000">880</waveLength>
+                <waveLength n="3.301515" k="0.000000">890</waveLength>
+                <waveLength n="3.301515" k="0.000000">900</waveLength>
+                <waveLength n="3.301515" k="0.000000">910</waveLength>
+                <waveLength n="3.301515" k="0.000000">920</waveLength>
+                <waveLength n="3.301515" k="0.000000">930</waveLength>
+                <waveLength n="3.301515" k="0.000000">940</waveLength>
+                <waveLength n="3.301515" k="0.000000">950</waveLength>
+                <waveLength n="3.301515" k="0.000000">960</waveLength>
+                <waveLength n="3.301515" k="0.000000">970</waveLength>
+                <waveLength n="3.301515" k="0.000000">980</waveLength>
+                <waveLength n="3.301515" k="0.000000">990</waveLength>
+                <waveLength n="3.301515" k="0.000000">1000</waveLength>
+                <waveLength n="3.301515" k="0.000000">1010</waveLength>
+                <waveLength n="3.301515" k="0.000000">1020</waveLength>
+                <waveLength n="3.301515" k="0.000000">1030</waveLength>
+                <waveLength n="3.301515" k="0.000000">1040</waveLength>
+                <waveLength n="3.301515" k="0.000000">1050</waveLength>
+                <waveLength n="3.301515" k="0.000000">1060</waveLength>
+                <waveLength n="3.301515" k="0.000000">1070</waveLength>
+                <waveLength n="3.301515" k="0.000000">1080</waveLength>
+                <waveLength n="3.301515" k="0.000000">1090</waveLength>
+                <waveLength n="3.301515" k="0.000000">1100</waveLength>
+                <waveLength n="3.301515" k="0.000000">1110</waveLength>
+                <waveLength n="3.301515" k="0.000000">1120</waveLength>
+                <waveLength n="3.301515" k="0.000000">1130</waveLength>
+                <waveLength n="3.301515" k="0.000000">1140</waveLength>
+                <waveLength n="3.301515" k="0.000000">1150</waveLength>
+                <waveLength n="3.301515" k="0.000000">1160</waveLength>
+                <waveLength n="3.301515" k="0.000000">1170</waveLength>
+                <waveLength n="3.301515" k="0.000000">1180</waveLength>
+                <waveLength n="3.301515" k="0.000000">1190</waveLength>
+                <waveLength n="3.301515" k="0.000000">1200</waveLength>
+                <waveLength n="3.301515" k="0.000000">1210</waveLength>
+                <waveLength n="3.301515" k="0.000000">1220</waveLength>
+                <waveLength n="3.301515" k="0.000000">1230</waveLength>
+                <waveLength n="3.301515" k="0.000000">1240</waveLength>
+                <waveLength n="3.301515" k="0.000000">1250</waveLength>
+                <waveLength n="3.301515" k="0.000000">1260</waveLength>
+                <waveLength n="3.301515" k="0.000000">1270</waveLength>
+                <waveLength n="3.301515" k="0.000000">1280</waveLength>
+                <waveLength n="3.301515" k="0.000000">1290</waveLength>
+            </refractive_index>
+        </Optical>
+        <Edge>.01</Edge>
+        <Center>1</Center>
+        <Beta>0</Beta>
+        <mc>0.05</mc>
+        <mv>0.14</mv>
+        <Field_dependent_mobility exist="0" />
+        <bandgap_narrowing exist="1">
+            <Ec_fraction>0.5</Ec_fraction>
+            <Eref>6.92e-3</Eref>
+            <nref>1.3e17</nref>
+        </bandgap_narrowing>
+    </Material>
+    <Material name="Al0.4Ga0.6As" thickness="0.05">
+        <Electric>
+            <Dielectric>10.9</Dielectric>
+            <Eg>1.93</Eg>
+            <Affinity>3.99</Affinity>
+            <Nc>7.9e17</Nc>
+            <Nv>1.16e19</Nv>
+            <mobility_n>1000</mobility_n>
+            <mobility_p>40</mobility_p>
+            <Nd>2e18</Nd>
+            <Na>0</Na>
+        </Electric>
+        <Defect number="0">
+            <Band_tail exist="0" />
+        </Defect>
+        <Optical>
+            <A>1e-5</A>
+            <B>0</B>
+            <refractive_index wavelength_unit="nm">
+                <waveLength n="1.353000" k="2.440000">206</waveLength>
+                <waveLength n="1.350000" k="2.507000">210</waveLength>
+                <waveLength n="1.357000" k="2.574000">213</waveLength>
+                <waveLength n="1.377000" k="2.675000">217</waveLength>
+                <waveLength n="1.406000" k="2.783000">221</waveLength>
+                <waveLength n="1.456000" k="2.908000">225</waveLength>
+                <waveLength n="1.523000" k="3.047000">229</waveLength>
+                <waveLength n="1.613000" k="3.201000">233</waveLength>
+                <waveLength n="1.740000" k="3.384000">238</waveLength>
+                <waveLength n="1.926000" k="3.598000">243</waveLength>
+                <waveLength n="2.234000" k="3.822000">248</waveLength>
+                <waveLength n="2.695000" k="3.937000">253</waveLength>
+                <waveLength n="3.200000" k="3.909000">258</waveLength>
+                <waveLength n="3.733000" k="3.646000">263</waveLength>
+                <waveLength n="4.054000" k="3.157000">269</waveLength>
+                <waveLength n="4.103000" k="2.691000">275</waveLength>
+                <waveLength n="4.014000" k="2.363000">281</waveLength>
+                <waveLength n="3.897000" k="2.161000">288</waveLength>
+                <waveLength n="3.794000" k="2.040000">295</waveLength>
+                <waveLength n="3.719000" k="1.971000">302</waveLength>
+                <waveLength n="3.667000" k="1.936000">310</waveLength>
+                <waveLength n="3.640000" k="1.924000">317</waveLength>
+                <waveLength n="3.640000" k="1.931000">326</waveLength>
+                <waveLength n="3.668000" k="1.958000">335</waveLength>
+                <waveLength n="3.736000" k="2.005000">344</waveLength>
+                <waveLength n="3.887000" k="2.071000">354</waveLength>
+                <waveLength n="4.172000" k="2.042000">364</waveLength>
+                <waveLength n="4.401000" k="1.870000">375</waveLength>
+                <waveLength n="4.706000" k="1.640000">387</waveLength>
+                <waveLength n="4.778000" k="1.119000">399</waveLength>
+                <waveLength n="4.605000" k="0.786000">413</waveLength>
+                <waveLength n="4.430000" k="0.596000">427</waveLength>
+                <waveLength n="4.280000" k="0.472000">442</waveLength>
+                <waveLength n="4.154000" k="0.385000">459</waveLength>
+                <waveLength n="4.047000" k="0.319000">476</waveLength>
+                <waveLength n="3.957000" k="0.268000">495</waveLength>
+                <waveLength n="3.881000" k="0.219000">516</waveLength>
+                <waveLength n="3.820000" k="0.178000">539</waveLength>
+                <waveLength n="3.747000" k="0.134000">563</waveLength>
+                <waveLength n="3.686000" k="0.100000">590</waveLength>
+                <waveLength n="3.664000" k="0.059000">619</waveLength>
+                <waveLength n="3.559000" k="0.003000">652</waveLength>
+                <waveLength n="3.479000" k="0.000000">688</waveLength>
+                <waveLength n="3.422000" k="0.000000">729</waveLength>
+                <waveLength n="3.378000" k="0.000000">774</waveLength>
+                <waveLength n="3.341000" k="0.000000">826</waveLength>
+            </refractive_index>
+        </Optical>
+        <Edge>0.1</Edge>
+        <Center>1</Center>
+        <Beta>0</Beta>
+        <mc>0.05</mc>
+        <mv>0.14</mv>
+        <Field_dependent_mobility exist="0" />
+        <bandgap_narrowing exist="0" />
+    </Material>
+    <Material name="n GaAs" thickness="0.1">
+        <Electric>
+            <Dielectric>10.9</Dielectric>
+            <Eg>1.42</Eg>
+            <Affinity>4.07</Affinity>
+            <Nc>4.3e17</Nc>
+            <Nv>8.7e18</Nv>
+            <mobility_n>8500</mobility_n>
+            <mobility_p>400</mobility_p>
+            <Nd>1e10</Nd>
+            <Na>0</Na>
+        </Electric>
+        <Defect number="0">
+            <Band_tail exist="0" />
+        </Defect>
+        <Optical>
+            <A>1</A>
+            <B>0</B>
+            <refractive_index wavelength_unit="nm">
+                <waveLength n="4.417000" k="2.136000">398</waveLength>
+                <waveLength n="4.459000" k="2.081000">400</waveLength>
+                <waveLength n="4.488000" k="2.030000">402</waveLength>
+                <waveLength n="4.509000" k="1.989000">404</waveLength>
+                <waveLength n="4.527000" k="1.951000">406</waveLength>
+                <waveLength n="4.542000" k="1.923000">407</waveLength>
+                <waveLength n="4.556000" k="1.902000">409</waveLength>
+                <waveLength n="4.577000" k="1.886000">412</waveLength>
+                <waveLength n="4.602000" k="1.879000">414</waveLength>
+                <waveLength n="4.633000" k="1.882000">415</waveLength>
+                <waveLength n="4.685000" k="1.887000">417</waveLength>
+                <waveLength n="4.755000" k="1.887000">419</waveLength>
+                <waveLength n="4.849000" k="1.868000">421</waveLength>
+                <waveLength n="4.949000" k="1.815000">424</waveLength>
+                <waveLength n="5.080000" k="1.675000">426</waveLength>
+                <waveLength n="5.126000" k="1.562000">427</waveLength>
+                <waveLength n="5.152000" k="1.438000">429</waveLength>
+                <waveLength n="5.152000" k="1.323000">431</waveLength>
+                <waveLength n="5.135000" k="1.225000">434</waveLength>
+                <waveLength n="5.110000" k="1.135000">436</waveLength>
+                <waveLength n="5.073000" k="1.056000">438</waveLength>
+                <waveLength n="5.041000" k="0.990000">439</waveLength>
+                <waveLength n="5.002000" k="0.928000">441</waveLength>
+                <waveLength n="4.962000" k="0.877000">444</waveLength>
+                <waveLength n="4.924000" k="0.829000">446</waveLength>
+                <waveLength n="4.884000" k="0.788000">448</waveLength>
+                <waveLength n="4.858000" k="0.755000">450</waveLength>
+                <waveLength n="4.778000" k="0.678000">455</waveLength>
+                <waveLength n="4.702000" k="0.617000">460</waveLength>
+                <waveLength n="4.634000" k="0.566000">465</waveLength>
+                <waveLength n="4.575000" k="0.527000">469</waveLength>
+                <waveLength n="4.518000" k="0.492000">474</waveLength>
+                <waveLength n="4.467000" k="0.463000">479</waveLength>
+                <waveLength n="4.420000" k="0.436000">485</waveLength>
+                <waveLength n="4.376000" k="0.414000">489</waveLength>
+                <waveLength n="4.341000" k="0.394000">495</waveLength>
+                <waveLength n="4.307000" k="0.376000">500</waveLength>
+                <waveLength n="4.272000" k="0.360000">504</waveLength>
+                <waveLength n="4.242000" k="0.346000">510</waveLength>
+                <waveLength n="4.212000" k="0.334000">514</waveLength>
+                <waveLength n="4.186000" k="0.322000">520</waveLength>
+                <waveLength n="4.162000" k="0.311000">525</waveLength>
+                <waveLength n="4.141000" k="0.301000">530</waveLength>
+                <waveLength n="4.116000" k="0.291000">535</waveLength>
+                <waveLength n="4.096000" k="0.282000">540</waveLength>
+                <waveLength n="4.076000" k="0.275000">545</waveLength>
+                <waveLength n="4.058000" k="0.268000">550</waveLength>
+                <waveLength n="4.040000" k="0.261000">555</waveLength>
+                <waveLength n="4.024000" k="0.255000">560</waveLength>
+                <waveLength n="4.009000" k="0.248000">564</waveLength>
+                <waveLength n="3.993000" k="0.243000">569</waveLength>
+                <waveLength n="3.977000" k="0.237000">574</waveLength>
+                <waveLength n="3.960000" k="0.232000">580</waveLength>
+                <waveLength n="3.946000" k="0.227000">584</waveLength>
+                <waveLength n="3.934000" k="0.222000">590</waveLength>
+                <waveLength n="3.923000" k="0.218000">594</waveLength>
+                <waveLength n="3.912000" k="0.214000">600</waveLength>
+                <waveLength n="3.900000" k="0.210000">604</waveLength>
+                <waveLength n="3.891000" k="0.206000">610</waveLength>
+                <waveLength n="3.881000" k="0.203000">614</waveLength>
+                <waveLength n="3.874000" k="0.199000">620</waveLength>
+                <waveLength n="3.865000" k="0.195000">625</waveLength>
+                <waveLength n="3.851000" k="0.191000">630</waveLength>
+                <waveLength n="3.844000" k="0.188000">635</waveLength>
+                <waveLength n="3.839000" k="0.185000">640</waveLength>
+                <waveLength n="3.831000" k="0.182000">645</waveLength>
+                <waveLength n="3.825000" k="0.178000">650</waveLength>
+                <waveLength n="3.815000" k="0.175000">655</waveLength>
+                <waveLength n="3.809000" k="0.171000">660</waveLength>
+                <waveLength n="3.804000" k="0.168000">665</waveLength>
+                <waveLength n="3.798000" k="0.164000">670</waveLength>
+                <waveLength n="3.793000" k="0.162000">675</waveLength>
+                <waveLength n="3.787000" k="0.159000">680</waveLength>
+                <waveLength n="3.784000" k="0.154000">685</waveLength>
+                <waveLength n="3.779000" k="0.151000">690</waveLength>
+                <waveLength n="3.776000" k="0.148000">694</waveLength>
+                <waveLength n="3.770000" k="0.141000">700</waveLength>
+                <waveLength n="3.766000" k="0.135000">704</waveLength>
+                <waveLength n="3.758000" k="0.131000">710</waveLength>
+                <waveLength n="3.749000" k="0.126000">714</waveLength>
+                <waveLength n="3.744000" k="0.123000">720</waveLength>
+                <waveLength n="3.739000" k="0.120000">724</waveLength>
+                <waveLength n="3.734000" k="0.116000">730</waveLength>
+                <waveLength n="3.728000" k="0.114000">735</waveLength>
+                <waveLength n="3.721000" k="0.111000">740</waveLength>
+                <waveLength n="3.716000" k="0.108000">745</waveLength>
+                <waveLength n="3.712000" k="0.108000">750</waveLength>
+                <waveLength n="3.709000" k="0.105000">755</waveLength>
+                <waveLength n="3.703000" k="0.105000">759</waveLength>
+                <waveLength n="3.698000" k="0.101000">765</waveLength>
+                <waveLength n="3.692000" k="0.101000">769</waveLength>
+                <waveLength n="3.689000" k="0.097000">775</waveLength>
+                <waveLength n="3.685000" k="0.095000">780</waveLength>
+                <waveLength n="3.684000" k="0.094000">785</waveLength>
+                <waveLength n="3.680000" k="0.092000">790</waveLength>
+                <waveLength n="3.679000" k="0.089000">795</waveLength>
+                <waveLength n="3.679000" k="0.089000">800</waveLength>
+                <waveLength n="3.672000" k="0.086000">805</waveLength>
+                <waveLength n="3.669000" k="0.082000">810</waveLength>
+                <waveLength n="3.669000" k="0.084000">814</waveLength>
+                <waveLength n="3.662000" k="0.081000">819</waveLength>
+                <waveLength n="3.661000" k="0.087000">824</waveLength>
+                <waveLength n="3.661000" k="0.085000">829</waveLength>
+                <waveLength n="3.663000" k="0.083000">835</waveLength>
+                <waveLength n="3.645000" k="0.080000">839</waveLength>
+                <waveLength n="3.645000" k="0.020000">849</waveLength>
+                <waveLength n="3.645000" k="0.001000">859</waveLength>
+                <waveLength n="3.500000" k="0.001000">865</waveLength>
+                <waveLength n="3.500000" k="0.000010">869</waveLength>
+                <waveLength n="3.500000" k="0.000010">875</waveLength>
+                <waveLength n="3.500000" k="0.000010">879</waveLength>
+                <waveLength n="3.500000" k="0.000010">885</waveLength>
+                <waveLength n="3.500000" k="0.000010">890</waveLength>
+                <waveLength n="3.500000" k="0.000010">895</waveLength>
+                <waveLength n="3.500000" k="0.000000">900</waveLength>
+            </refractive_index>
+        </Optical>
+        <Edge>0.5</Edge>
+        <Center>5</Center>
+        <Beta>0</Beta>
+        <mc>1</mc>
+        <mv>1</mv>
+        <Field_dependent_mobility exist="0" />
+        <bandgap_narrowing exist="0" />
+    </Material>
+    <Material name="p GaAs" thickness="3.5">
+        <Electric>
+            <Dielectric>10.9</Dielectric>
+            <Eg>1.42</Eg>
+            <Affinity>4.07</Affinity>
+            <Nc>4.3e17</Nc>
+            <Nv>8.7e18</Nv>
+            <mobility_n>8500</mobility_n>
+            <mobility_p>400</mobility_p>
+            <Nd>0</Nd>
+            <Na>2e17</Na>
+        </Electric>
+        <Defect number="1">
+            <AcceptorLike>
+                <type>0</type>
+                <distribution>0</distribution>
+                <density>1e14</density>
+                <energy>0.7</energy>
+                <width>0</width>
+                <sigN>1e-12</sigN>
+                <sigP>1e-12</sigP>
+            </AcceptorLike>
+            <Band_tail exist="0" />
+        </Defect>
+        <Optical>
+            <A>1e5</A>
+            <B>0</B>
+            <refractive_index wavelength_unit="nm">
+                <waveLength n="4.417000" k="2.136000">398</waveLength>
+                <waveLength n="4.459000" k="2.081000">400</waveLength>
+                <waveLength n="4.488000" k="2.030000">402</waveLength>
+                <waveLength n="4.509000" k="1.989000">404</waveLength>
+                <waveLength n="4.527000" k="1.951000">406</waveLength>
+                <waveLength n="4.542000" k="1.923000">407</waveLength>
+                <waveLength n="4.556000" k="1.902000">409</waveLength>
+                <waveLength n="4.577000" k="1.886000">412</waveLength>
+                <waveLength n="4.602000" k="1.879000">414</waveLength>
+                <waveLength n="4.633000" k="1.882000">415</waveLength>
+                <waveLength n="4.685000" k="1.887000">417</waveLength>
+                <waveLength n="4.755000" k="1.887000">419</waveLength>
+                <waveLength n="4.849000" k="1.868000">421</waveLength>
+                <waveLength n="4.949000" k="1.815000">424</waveLength>
+                <waveLength n="5.080000" k="1.675000">426</waveLength>
+                <waveLength n="5.126000" k="1.562000">427</waveLength>
+                <waveLength n="5.152000" k="1.438000">429</waveLength>
+                <waveLength n="5.152000" k="1.323000">431</waveLength>
+                <waveLength n="5.135000" k="1.225000">434</waveLength>
+                <waveLength n="5.110000" k="1.135000">436</waveLength>
+                <waveLength n="5.073000" k="1.056000">438</waveLength>
+                <waveLength n="5.041000" k="0.990000">439</waveLength>
+                <waveLength n="5.002000" k="0.928000">441</waveLength>
+                <waveLength n="4.962000" k="0.877000">444</waveLength>
+                <waveLength n="4.924000" k="0.829000">446</waveLength>
+                <waveLength n="4.884000" k="0.788000">448</waveLength>
+                <waveLength n="4.858000" k="0.755000">450</waveLength>
+                <waveLength n="4.778000" k="0.678000">455</waveLength>
+                <waveLength n="4.702000" k="0.617000">460</waveLength>
+                <waveLength n="4.634000" k="0.566000">465</waveLength>
+                <waveLength n="4.575000" k="0.527000">469</waveLength>
+                <waveLength n="4.518000" k="0.492000">474</waveLength>
+                <waveLength n="4.467000" k="0.463000">479</waveLength>
+                <waveLength n="4.420000" k="0.436000">485</waveLength>
+                <waveLength n="4.376000" k="0.414000">489</waveLength>
+                <waveLength n="4.341000" k="0.394000">495</waveLength>
+                <waveLength n="4.307000" k="0.376000">500</waveLength>
+                <waveLength n="4.272000" k="0.360000">504</waveLength>
+                <waveLength n="4.242000" k="0.346000">510</waveLength>
+                <waveLength n="4.212000" k="0.334000">514</waveLength>
+                <waveLength n="4.186000" k="0.322000">520</waveLength>
+                <waveLength n="4.162000" k="0.311000">525</waveLength>
+                <waveLength n="4.141000" k="0.301000">530</waveLength>
+                <waveLength n="4.116000" k="0.291000">535</waveLength>
+                <waveLength n="4.096000" k="0.282000">540</waveLength>
+                <waveLength n="4.076000" k="0.275000">545</waveLength>
+                <waveLength n="4.058000" k="0.268000">550</waveLength>
+                <waveLength n="4.040000" k="0.261000">555</waveLength>
+                <waveLength n="4.024000" k="0.255000">560</waveLength>
+                <waveLength n="4.009000" k="0.248000">564</waveLength>
+                <waveLength n="3.993000" k="0.243000">569</waveLength>
+                <waveLength n="3.977000" k="0.237000">574</waveLength>
+                <waveLength n="3.960000" k="0.232000">580</waveLength>
+                <waveLength n="3.946000" k="0.227000">584</waveLength>
+                <waveLength n="3.934000" k="0.222000">590</waveLength>
+                <waveLength n="3.923000" k="0.218000">594</waveLength>
+                <waveLength n="3.912000" k="0.214000">600</waveLength>
+                <waveLength n="3.900000" k="0.210000">604</waveLength>
+                <waveLength n="3.891000" k="0.206000">610</waveLength>
+                <waveLength n="3.881000" k="0.203000">614</waveLength>
+                <waveLength n="3.874000" k="0.199000">620</waveLength>
+                <waveLength n="3.865000" k="0.195000">625</waveLength>
+                <waveLength n="3.851000" k="0.191000">630</waveLength>
+                <waveLength n="3.844000" k="0.188000">635</waveLength>
+                <waveLength n="3.839000" k="0.185000">640</waveLength>
+                <waveLength n="3.831000" k="0.182000">645</waveLength>
+                <waveLength n="3.825000" k="0.178000">650</waveLength>
+                <waveLength n="3.815000" k="0.175000">655</waveLength>
+                <waveLength n="3.809000" k="0.171000">660</waveLength>
+                <waveLength n="3.804000" k="0.168000">665</waveLength>
+                <waveLength n="3.798000" k="0.164000">670</waveLength>
+                <waveLength n="3.793000" k="0.162000">675</waveLength>
+                <waveLength n="3.787000" k="0.159000">680</waveLength>
+                <waveLength n="3.784000" k="0.154000">685</waveLength>
+                <waveLength n="3.779000" k="0.151000">690</waveLength>
+                <waveLength n="3.776000" k="0.148000">694</waveLength>
+                <waveLength n="3.770000" k="0.141000">700</waveLength>
+                <waveLength n="3.766000" k="0.135000">704</waveLength>
+                <waveLength n="3.758000" k="0.131000">710</waveLength>
+                <waveLength n="3.749000" k="0.126000">714</waveLength>
+                <waveLength n="3.744000" k="0.123000">720</waveLength>
+                <waveLength n="3.739000" k="0.120000">724</waveLength>
+                <waveLength n="3.734000" k="0.116000">730</waveLength>
+                <waveLength n="3.728000" k="0.114000">735</waveLength>
+                <waveLength n="3.721000" k="0.111000">740</waveLength>
+                <waveLength n="3.716000" k="0.108000">745</waveLength>
+                <waveLength n="3.712000" k="0.108000">750</waveLength>
+                <waveLength n="3.709000" k="0.105000">755</waveLength>
+                <waveLength n="3.703000" k="0.105000">759</waveLength>
+                <waveLength n="3.698000" k="0.101000">765</waveLength>
+                <waveLength n="3.692000" k="0.101000">769</waveLength>
+                <waveLength n="3.689000" k="0.097000">775</waveLength>
+                <waveLength n="3.685000" k="0.095000">780</waveLength>
+                <waveLength n="3.684000" k="0.094000">785</waveLength>
+                <waveLength n="3.680000" k="0.092000">790</waveLength>
+                <waveLength n="3.679000" k="0.089000">795</waveLength>
+                <waveLength n="3.679000" k="0.089000">800</waveLength>
+                <waveLength n="3.672000" k="0.086000">805</waveLength>
+                <waveLength n="3.669000" k="0.082000">810</waveLength>
+                <waveLength n="3.669000" k="0.084000">814</waveLength>
+                <waveLength n="3.662000" k="0.081000">819</waveLength>
+                <waveLength n="3.661000" k="0.087000">824</waveLength>
+                <waveLength n="3.661000" k="0.085000">829</waveLength>
+                <waveLength n="3.300000" k="0.158000">839</waveLength>
+                <waveLength n="3.300000" k="0.190000">869</waveLength>
+                <waveLength n="3.300000" k="0.000000">879</waveLength>
+            </refractive_index>
+        </Optical>
+        <Edge>1</Edge>
+        <Center>20</Center>
+        <Beta>0</Beta>
+        <mc>1</mc>
+        <mv>1</mv>
+        <Field_dependent_mobility exist="0" />
+        <bandgap_narrowing exist="0" />
+    </Material>
+    <Material name="Al0.3Ga0.7As" thickness="0.1">
+        <Electric>
+            <Dielectric>10.9</Dielectric>
+            <Eg>1.84</Eg>
+            <Affinity>3.99</Affinity>
+            <Nc>7.9e17</Nc>
+            <Nv>1.16e19</Nv>
+            <mobility_n>1000</mobility_n>
+            <mobility_p>40</mobility_p>
+            <Nd>0</Nd>
+            <Na>2e18</Na>
+        </Electric>
+        <Defect number="0">
+            <Band_tail exist="0" />
+        </Defect>
+        <Optical>
+            <A>0</A>
+            <B>0</B>
+            <refractive_index wavelength_unit="nm">
+                <waveLength n="1.347000" k="2.443000">206</waveLength>
+                <waveLength n="1.338000" k="2.502000">210</waveLength>
+                <waveLength n="1.352000" k="2.577000">213</waveLength>
+                <waveLength n="1.367000" k="2.669000">217</waveLength>
+                <waveLength n="1.393000" k="2.776000">221</waveLength>
+                <waveLength n="1.437000" k="2.893000">225</waveLength>
+                <waveLength n="1.497000" k="3.030000">229</waveLength>
+                <waveLength n="1.581000" k="3.187000">233</waveLength>
+                <waveLength n="1.696000" k="3.376000">238</waveLength>
+                <waveLength n="1.878000" k="3.604000">243</waveLength>
+                <waveLength n="2.198000" k="3.845000">248</waveLength>
+                <waveLength n="2.684000" k="3.957000">253</waveLength>
+                <waveLength n="3.196000" k="3.881000">258</waveLength>
+                <waveLength n="3.669000" k="3.617000">263</waveLength>
+                <waveLength n="3.982000" k="3.177000">269</waveLength>
+                <waveLength n="4.062000" k="2.733000">275</waveLength>
+                <waveLength n="3.999000" k="2.393000">281</waveLength>
+                <waveLength n="3.883000" k="2.172000">288</waveLength>
+                <waveLength n="3.772000" k="2.040000">295</waveLength>
+                <waveLength n="3.686000" k="1.966000">302</waveLength>
+                <waveLength n="3.625000" k="1.927000">310</waveLength>
+                <waveLength n="3.588000" k="1.914000">317</waveLength>
+                <waveLength n="3.575000" k="1.921000">326</waveLength>
+                <waveLength n="3.589000" k="1.946000">335</waveLength>
+                <waveLength n="3.633000" k="1.988000">344</waveLength>
+                <waveLength n="3.724000" k="2.054000">354</waveLength>
+                <waveLength n="3.922000" k="2.134000">364</waveLength>
+                <waveLength n="4.246000" k="2.041000">375</waveLength>
+                <waveLength n="4.456000" k="1.879000">387</waveLength>
+                <waveLength n="4.825000" k="1.558000">399</waveLength>
+                <waveLength n="4.781000" k="1.012000">413</waveLength>
+                <waveLength n="4.582000" k="0.722000">427</waveLength>
+                <waveLength n="4.404000" k="0.556000">442</waveLength>
+                <waveLength n="4.258000" k="0.446000">459</waveLength>
+                <waveLength n="4.135000" k="0.367000">476</waveLength>
+                <waveLength n="4.032000" k="0.305000">495</waveLength>
+                <waveLength n="3.945000" k="0.258000">516</waveLength>
+                <waveLength n="3.872000" k="0.227000">539</waveLength>
+                <waveLength n="3.815000" k="0.202000">563</waveLength>
+                <waveLength n="3.750000" k="0.167000">590</waveLength>
+                <waveLength n="3.690000" k="0.145000">619</waveLength>
+                <waveLength n="3.650000" k="0.111000">652</waveLength>
+                <waveLength n="3.592000" k="0.008000">688</waveLength>
+                <waveLength n="3.509000" k="0.000000">729</waveLength>
+                <waveLength n="3.456000" k="0.000000">774</waveLength>
+                <waveLength n="3.404000" k="0.000000">826</waveLength>
+            </refractive_index>
+        </Optical>
+        <Edge>0.5</Edge>
+        <Center>5</Center>
+        <Beta>0</Beta>
+        <mc>1</mc>
+        <mv>1</mv>
+        <Field_dependent_mobility exist="0" />
+        <bandgap_narrowing exist="0" />
+    </Material>
+</Device>

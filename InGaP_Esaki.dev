@@ -1,0 +1,242 @@
+<Device layers="4">
+    <Material name="InGaP" thickness="0.495">
+        <Electric>
+            <Dielectric>13.1</Dielectric>
+            <Eg>1.42</Eg>
+            <Affinity>4.07</Affinity>
+            <Nc>4.7e17</Nc>
+            <Nv>1.28e19</Nv>
+            <mobility_n>8800</mobility_n>
+            <mobility_p>400</mobility_p>
+            <Nd>0</Nd>
+            <Na>8e19</Na>
+        </Electric>
+        <Defect number="0">
+            <Band_tail exist="0" />
+        </Defect>
+        <Optical>
+            <A>0</A>
+            <B>0</B>
+            <refractive_index wavelength_unit="nm">
+                <waveLength n="3.619392" k="1.991426">350</waveLength>
+                <waveLength n="3.619392" k="2.145409">400</waveLength>
+                <waveLength n="3.619392" k="1.971930">420</waveLength>
+                <waveLength n="3.619392" k="1.088938">440</waveLength>
+                <waveLength n="3.619392" k="0.695507">460</waveLength>
+                <waveLength n="3.619392" k="0.515662">480</waveLength>
+                <waveLength n="3.619392" k="0.425739">500</waveLength>
+                <waveLength n="3.619392" k="0.358353">520</waveLength>
+                <waveLength n="3.619392" k="0.320570">540</waveLength>
+                <waveLength n="3.619392" k="0.285651">560</waveLength>
+                <waveLength n="3.619392" k="0.251083">580</waveLength>
+                <waveLength n="3.619392" k="0.227273">600</waveLength>
+                <waveLength n="3.619392" k="0.211167">620</waveLength>
+                <waveLength n="3.619392" k="0.187421">640</waveLength>
+                <waveLength n="3.619392" k="0.173320">660</waveLength>
+                <waveLength n="3.619392" k="0.157468">680</waveLength>
+                <waveLength n="3.619392" k="0.152630">700</waveLength>
+                <waveLength n="3.619392" k="0.118029">720</waveLength>
+                <waveLength n="3.619392" k="0.105408">740</waveLength>
+                <waveLength n="3.619392" k="0.097371">760</waveLength>
+                <waveLength n="3.619392" k="0.088761">780</waveLength>
+                <waveLength n="3.619392" k="0.084670">800</waveLength>
+                <waveLength n="3.619392" k="0.083525">820</waveLength>
+                <waveLength n="3.619392" k="0.081551">840</waveLength>
+                <waveLength n="3.619392" k="0.001649">860</waveLength>
+                <waveLength n="3.619392" k="0.001688">880</waveLength>
+                <waveLength n="3.619392" k="0.000007">900</waveLength>
+            </refractive_index>
+        </Optical>
+        <Edge>1</Edge>
+        <Center>5</Center>
+        <Beta>0</Beta>
+        <mc>1</mc>
+        <mv>1</mv>
+        <Field_dependent_mobility exist="0" />
+        <bandgap_narrowing exist="1">
+            <Ec_fraction>0.5</Ec_fraction>
+            <Eref>6.92e-3</Eref>
+            <nref>1.3e17</nref>
+        </bandgap_narrowing>
+    </Material>
+    <Material name="InGaP" thickness="0.005">
+        <Electric>
+            <Dielectric>13.1</Dielectric>
+            <Eg>1.42</Eg>
+            <Affinity>4.07</Affinity>
+            <Nc>4.7e17</Nc>
+            <Nv>1.28e19</Nv>
+            <mobility_n>8800</mobility_n>
+            <mobility_p>400</mobility_p>
+            <Nd>0</Nd>
+            <Na>8e19</Na>
+        </Electric>
+        <Defect number="0">
+            <Band_tail exist="0" />
+        </Defect>
+        <Optical>
+            <A>0</A>
+            <B>0</B>
+            <refractive_index wavelength_unit="nm">
+                <waveLength n="3.619392" k="1.991426">350</waveLength>
+                <waveLength n="3.619392" k="2.145409">400</waveLength>
+                <waveLength n="3.619392" k="1.971930">420</waveLength>
+                <waveLength n="3.619392" k="1.088938">440</waveLength>
+                <waveLength n="3.619392" k="0.695507">460</waveLength>
+                <waveLength n="3.619392" k="0.515662">480</waveLength>
+                <waveLength n="3.619392" k="0.425739">500</waveLength>
+                <waveLength n="3.619392" k="0.358353">520</waveLength>
+                <waveLength n="3.619392" k="0.320570">540</waveLength>
+                <waveLength n="3.619392" k="0.285651">560</waveLength>
+                <waveLength n="3.619392" k="0.251083">580</waveLength>
+                <waveLength n="3.619392" k="0.227273">600</waveLength>
+                <waveLength n="3.619392" k="0.211167">620</waveLength>
+                <waveLength n="3.619392" k="0.187421">640</waveLength>
+                <waveLength n="3.619392" k="0.173320">660</waveLength>
+                <waveLength n="3.619392" k="0.157468">680</waveLength>
+                <waveLength n="3.619392" k="0.152630">700</waveLength>
+                <waveLength n="3.619392" k="0.118029">720</waveLength>
+                <waveLength n="3.619392" k="0.105408">740</waveLength>
+                <waveLength n="3.619392" k="0.097371">760</waveLength>
+                <waveLength n="3.619392" k="0.088761">780</waveLength>
+                <waveLength n="3.619392" k="0.084670">800</waveLength>
+                <waveLength n="3.619392" k="0.083525">820</waveLength>
+                <waveLength n="3.619392" k="0.081551">840</waveLength>
+                <waveLength n="3.619392" k="0.001649">860</waveLength>
+                <waveLength n="3.619392" k="0.001688">880</waveLength>
+                <waveLength n="3.619392" k="0.000007">900</waveLength>
+            </refractive_index>
+        </Optical>
+        <Edge>.01</Edge>
+        <Center>.01</Center>
+        <Beta>0</Beta>
+        <mc>1.1</mc>
+        <mv>2</mv>
+        <Field_dependent_mobility exist="0" />
+        <bandgap_narrowing exist="1">
+            <Ec_fraction>0.5</Ec_fraction>
+            <Eref>6.92e-3</Eref>
+            <nref>1.3e17</nref>
+        </bandgap_narrowing>
+    </Material>
+    <Material name="InGaP" thickness="0.005">
+        <Electric>
+            <Dielectric>13.1</Dielectric>
+            <Eg>1.42</Eg>
+            <Affinity>4.07</Affinity>
+            <Nc>4.7e17</Nc>
+            <Nv>1.28e19</Nv>
+            <mobility_n>1945</mobility_n>
+            <mobility_p>141</mobility_p>
+            <Nd>9e18</Nd>
+            <Na>0</Na>
+        </Electric>
+        <Defect number="0">
+            <Band_tail exist="0" />
+        </Defect>
+        <Optical>
+            <A>0</A>
+            <B>0</B>
+            <refractive_index wavelength_unit="nm">
+                <waveLength n="3.619392" k="1.991426">350</waveLength>
+                <waveLength n="3.619392" k="2.145409">400</waveLength>
+                <waveLength n="3.619392" k="1.971930">420</waveLength>
+                <waveLength n="3.619392" k="1.088938">440</waveLength>
+                <waveLength n="3.619392" k="0.695507">460</waveLength>
+                <waveLength n="3.619392" k="0.515662">480</waveLength>
+                <waveLength n="3.619392" k="0.425739">500</waveLength>
+                <waveLength n="3.619392" k="0.358353">520</waveLength>
+                <waveLength n="3.619392" k="0.320570">540</waveLength>
+                <waveLength n="3.619392" k="0.285651">560</waveLength>
+                <waveLength n="3.619392" k="0.251083">580</waveLength>
+                <waveLength n="3.619392" k="0.227273">600</waveLength>
+                <waveLength n="3.619392" k="0.211167">620</waveLength>
+                <waveLength n="3.619392" k="0.187421">640</waveLength>
+                <waveLength n="3.619392" k="0.173320">660</waveLength>
+                <waveLength n="3.619392" k="0.157468">680</waveLength>
+                <waveLength n="3.619392" k="0.152630">700</waveLength>
+                <waveLength n="3.619392" k="0.118029">720</waveLength>
+                <waveLength n="3.619392" k="0.105408">740</waveLength>
+                <waveLength n="3.619392" k="0.097371">760</waveLength>
+                <waveLength n="3.619392" k="0.088761">780</waveLength>
+                <waveLength n="3.619392" k="0.084670">800</waveLength>
+                <waveLength n="3.619392" k="0.083525">820</waveLength>
+                <waveLength n="3.619392" k="0.081551">840</waveLength>
+                <waveLength n="3.619392" k="0.001649">860</waveLength>
+                <waveLength n="3.619392" k="0.001688">880</waveLength>
+                <waveLength n="3.619392" k="0.000007">900</waveLength>
+            </refractive_index>
+        </Optical>
+        <Edge>.01</Edge>
+        <Center>.01</Center>
+        <Beta>0</Beta>
+        <mc>1.1</mc>
+        <mv>2</mv>
+        <Field_dependent_mobility exist="0" />
+        <bandgap_narrowing exist="1">
+            <Ec_fraction>0.5</Ec_fraction>
+            <Eref>6.92e-3</Eref>
+            <nref>1.3e17</nref>
+        </bandgap_narrowing>
+    </Material>
+    <Material name="InGaP" thickness="0.495">
+        <Electric>
+            <Dielectric>13.1</Dielectric>
+            <Eg>1.42</Eg>
+            <Affinity>4.07</Affinity>
+            <Nc>4.7e17</Nc>
+            <Nv>1.28e19</Nv>
+            <mobility_n>1945</mobility_n>
+            <mobility_p>141</mobility_p>
+            <Nd>9e18</Nd>
+            <Na>0</Na>
+        </Electric>
+        <Defect number="0">
+            <Band_tail exist="0" />
+        </Defect>
+        <Optical>
+            <A>0</A>
+            <B>0</B>
+            <refractive_index wavelength_unit="nm">
+                <waveLength n="3.619392" k="1.991426">350</waveLength>
+                <waveLength n="3.619392" k="2.145409">400</waveLength>
+                <waveLength n="3.619392" k="1.971930">420</waveLength>
+                <waveLength n="3.619392" k="1.088938">440</waveLength>
+                <waveLength n="3.619392" k="0.695507">460</waveLength>
+                <waveLength n="3.619392" k="0.515662">480</waveLength>
+                <waveLength n="3.619392" k="0.425739">500</waveLength>
+                <waveLength n="3.619392" k="0.358353">520</waveLength>
+                <waveLength n="3.619392" k="0.320570">540</waveLength>
+                <waveLength n="3.619392" k="0.285651">560</waveLength>
+                <waveLength n="3.619392" k="0.251083">580</waveLength>
+                <waveLength n="3.619392" k="0.227273">600</waveLength>
+                <waveLength n="3.619392" k="0.211167">620</waveLength>
+                <waveLength n="3.619392" k="0.187421">640</waveLength>
+                <waveLength n="3.619392" k="0.173320">660</waveLength>
+                <waveLength n="3.619392" k="0.157468">680</waveLength>
+                <waveLength n="3.619392" k="0.152630">700</waveLength>
+                <waveLength n="3.619392" k="0.118029">720</waveLength>
+                <waveLength n="3.619392" k="0.105408">740</waveLength>
+                <waveLength n="3.619392" k="0.097371">760</waveLength>
+                <waveLength n="3.619392" k="0.088761">780</waveLength>
+                <waveLength n="3.619392" k="0.084670">800</waveLength>
+                <waveLength n="3.619392" k="0.083525">820</waveLength>
+                <waveLength n="3.619392" k="0.081551">840</waveLength>
+                <waveLength n="3.619392" k="0.001649">860</waveLength>
+                <waveLength n="3.619392" k="0.001688">880</waveLength>
+                <waveLength n="3.619392" k="0.000007">900</waveLength>
+            </refractive_index>
+        </Optical>
+        <Edge>1</Edge>
+        <Center>5</Center>
+        <Beta>0</Beta>
+        <mc>1</mc>
+        <mv>1</mv>
+        <Field_dependent_mobility exist="0" />
+        <bandgap_narrowing exist="1">
+            <Ec_fraction>0.5</Ec_fraction>
+            <Eref>6.92e-3</Eref>
+            <nref>1.3e17</nref>
+        </bandgap_narrowing>
+    </Material>
+</Device>
