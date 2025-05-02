@@ -2,6 +2,8 @@
 
 SEE Brief Introduction.pdf
 
+Please acknowledge Prof. Rockett, Dr. Yiming Liu of UIUC and Prof. Fonash of PSU in any of your articles, reports, course lectures, and presentations which employ wxAMPS in simulation results.
+
 Reference:
 [1] Y. Liu, M. Ahmadpour, J. Adam, J. Kjelstrup-Hansen, H.-G. Rubahn, and M. Madsen, “Modeling Multijunction Solar Cells by Nonlocal Tunneling and Subcell Analysis,” IEEE J. Photovoltaics, vol. 8, no. 5, pp. 1363–1369, Sep. 2018.
 
